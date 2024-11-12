@@ -73,7 +73,7 @@
 /* bag-icon Label */
 .bi-bag {
     position: absolute;
-    bottom: 18px;
+    bottom: 16px;
     right: 10px;
     /* background-color: red; */
     /* width: 30px; /* Adjust the size to match your layout */
@@ -163,6 +163,14 @@
     object-fit: cover; /* Ensures the image fills the container without distortion */
     border-radius: 5px;
 }
+
+.view-section-for-her img {
+    width: 500%; /* Extend width beyond the container */
+    height: 500px; /* Set a fixed height */
+    object-fit: cover;
+    border-radius: 5px;
+}
+
 
 .view-link {
     font-size: 1rem;
